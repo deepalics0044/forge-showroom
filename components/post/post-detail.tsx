@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundColor: 'none',
+
   },
   overlay: {
     position: 'absolute',
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     right: 0,
     left: 0,
-    backgroundColor: 'rgba(0,0,0,.3)',
+    backgroundColor: 'none',
   },
   mainFeaturedPostContent: {
     position: 'relative',
