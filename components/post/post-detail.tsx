@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
+    backgroundColor: 'none',
   },
   overlay: {
     position: 'absolute',
@@ -45,9 +46,9 @@ export const PostDetail = (props: PostDetailProps) => {
     <>
       <Paper className={classes.mainFeaturedPost}>
         {<img src={post.imageUrl} />}
-        /*
+       
         <div className={classes.overlay} />
-        */
+        
       </Paper>
       <Grid container>
         <Grid item md={6}>
